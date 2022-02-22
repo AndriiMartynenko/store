@@ -5,6 +5,7 @@ public class Book
     public string Title { get; }
     public Book(int id, string title)
     {
+        Id = id;
         Title = title;
     }
 }
